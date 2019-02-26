@@ -1,0 +1,25 @@
+{
+  "name": "resourcemanager",
+  "version": "1.0.0",
+  "description": "my resource manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "resourcemanager"
+  },
+  "keywords": [
+    "resource"
+  ],
+  "author": "ioan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsstore": "^2.10.2",
+    "mongoose": "^5.4.15",
+    "nodemon": "^1.18.10"
+  }
+}
