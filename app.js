@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const tech = require('./routes/tech.route');
-const home = require('./routes/index.route');
+const home = require('./routes/home.route');
 
 const mongoose = require('mongoose');
 let mongoDB = 'mongodb://localhost:27017/resourcemgmt';
