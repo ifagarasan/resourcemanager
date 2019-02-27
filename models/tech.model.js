@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let TechSchema = new Schema({
-    name: { type: String, required: true },
-    label: { type: String, required: true },
+    title: { type: String, required: true },
+    content: { type: String },
+    tags: { type: String }
 });
 
-// Export the model
 module.exports = mongoose.model('Tech', TechSchema);
